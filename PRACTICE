@@ -1,0 +1,21 @@
+print("$$$$$$$$$ CALCULATOR $$$$$$$$")
+print("\n")
+
+
+a=input("enter the value of a")
+b=input("enter the value of b")
+operator=input("ENTER YOUR OPERATOR (+,-,*,%,//,^)= ")
+if operator == "+":
+  print("the answer is ",int(a)+int(b))
+elif operator == "-":
+  print("the answer is ",int(a)-int(b))
+elif operator == "*":
+  print("the answer is ",int(a)*int(b))
+elif operator == "//":
+  print("the answer is ",int(a)//int(b))
+elif operator == "%":
+  print("the answer is ",int(a)%int(b))
+elif operator == "^":
+  print("The answer is ",int(a)^int(b))
+else:
+  print("operation  invalid :(")
